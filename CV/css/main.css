@@ -1,0 +1,134 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/********** ENTETE **********/
+
+.entete {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    align-items: center
+}
+
+.entete #img-cv, .entete .nom-intitulé {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.entete #img-cv {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+
+.entete .nom-intitulé h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 20px;
+}
+
+.entete .nom-intitulé h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: #333;
+    font-size: 12px;
+}
+
+/********** CONTACT **********/
+.contact {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    list-style: none;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.contact ul li div.item-c {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.contact ul li div.item-c h3 {
+    margin-right: 5px;
+    color: #333;
+}
+
+.contact ul li div.item-c p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #333;
+}
+/********** FORMATIONS **********/
+
+.formation {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.formation h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.formation ul li {
+    list-style: none;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.formation ul li div.item-f {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.formation ul li div.item-f h3 {
+    margin-right: 5px;
+    color: #333;
+}
+
+.formation ul li div.item-f h4 {
+    margin-right: 5px;
+    color: #333;
+}
+
+.formation ul li p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #333;
+}
